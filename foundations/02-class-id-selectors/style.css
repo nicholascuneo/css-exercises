@@ -1,0 +1,25 @@
+.odd {
+    background-color: rgb(243, 157, 157);
+    font-family: Verdana, "DejaVu Sans", sans-serif ;
+}
+
+.bigfont {
+    font-size: 24px;
+}
+
+#firstid {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+/*
+    Used .bigfont class since font-size of secondid matched
+    the .bigfont class.  Could have also added a rule to 
+    #secondid for font size 24px, but used .bigfont class in html
+    to reduce keystrokes
+*/
+
+#secondid {
+    background-color: #8cf88c;
+    font-weight: bold;
+}
